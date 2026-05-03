@@ -46,19 +46,19 @@ brew install --cask android-platform-tools
 <h4 align=center>Yay! Now You Have The Tools! Time To Get Your Image And Unlock The Phone!!</h4>
 
 - Download Your Stock Firmware [Here](https://developers.google.com/android/images)!
-    - Unzip It -> Unzip The Nested Zip Archive -> Give The `init_boot.img` To The Google Pixel Device
+    - Unzip It -> Unzip The Nested Zip Archive -> Give The `vendor_boot` To The Google Pixel Device
         - Download Magisk On The Phone
     - [Click Here](https://github.com/topjohnwu/Magisk/releases/download/v30.7/Magisk-v30.7.apk)!!!
     - Install The App & Open It
          - Select "Install" For Magisk, Not The App; Choose "Select And Patch A File"
-            - Patch Your `init_boot.img`
+            - Patch Your `vendor_boot.img`
                 - Transfer It Back To Your Computer, It Should Be Named Like This, `magisk_patched-30700_something.img`
 
 - Reboot Your Phone Into Bootloader Mode
     ```bash
     adb reboot bootloader
     ```
-    **Unlock The Bootloader (THIS WILL WIPE ALL YOUR USER DATA BY PERFORMING A FACTORY RESET - BACKUP ALL DATA FIRST AND COME BACK)**
+    <h5 align=left>Unlock The Bootloader (THIS WILL WIPE ALL YOUR USER DATA BY PERFORMING A FACTORY RESET - BACKUP ALL DATA FIRST AND COME BACK)</h5>
     ```bash
     fastboot flashing unlock
     ```
