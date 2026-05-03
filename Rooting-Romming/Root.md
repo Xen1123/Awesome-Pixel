@@ -59,6 +59,7 @@ brew install --cask android-platform-tools
     adb reboot bootloader
     ```
     <h5 align=left>Unlock The Bootloader (THIS WILL WIPE ALL YOUR USER DATA BY PERFORMING A FACTORY RESET - BACKUP ALL DATA FIRST AND COME BACK)</h5>
+    
     ```bash
     fastboot flashing unlock
     ```
