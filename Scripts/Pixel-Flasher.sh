@@ -33,7 +33,6 @@ do
             logical=(
                 system
                 system_ext
-                system_other
                 vendor
                 vendor_dlkm
                 gsa
@@ -77,7 +76,6 @@ do
                 system
                 product
                 system_ext
-                system_other
                 vendor
                 vendor_dlkm
             )
