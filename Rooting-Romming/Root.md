@@ -82,5 +82,4 @@ brew install --cask android-platform-tools
 
 - If You Want To Relock Your Bootloader, Make Sure Your Phone Is Completely On Stock Firmware! To Do So, Follow This Guide -
     - Come And Download This Script And Run It While You Are In The Folder of Your Stock Firmware
-        - Linux🐧 & MacOS🍎 - [Pixel-Flasher.sh](../Scripts/Pixel-Flasher.sh)
-        - Windows🪟 - [Pixel-Flasher.bat (MAY BE INCORRECT, I DON'T USE WINDOWS OR UNDERSTAND BATCH WELL)](../Scripts/Pixel.Flasher.bat)
+        - **[Make Sure You Download Python!](../Scripts/Pixel-Flasher.py)**
