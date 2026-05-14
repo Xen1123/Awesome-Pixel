@@ -16,7 +16,7 @@ print(r"""
 """)
 
 print("Pixel Flasher - A tool to flash Pixel devices with ease.")
-print("GitHub: https://github.com/Xen1123
+print("GitHub: https://github.com/Xen1123")
 fastboot_path = shutil.which("fastboot")
 if not fastboot_path:
     print("Error: fastboot not found in PATH. Please install Android Platform Tools and ensure fastboot is accessible.")
