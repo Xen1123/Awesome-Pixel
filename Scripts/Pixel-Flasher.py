@@ -26,10 +26,9 @@ if not adb_path:
     print("Error: adb not found in PATH. Please install Android Platform Tools and ensure adb is accessible.")
     sys.exit(1)
 username = getpass.getuser()
-confirm = input(f"Hello {username}! Would You Like To Flash Everything, Or Just Android Files Like System, Vendor, Etc? [Type Answer As Spelt In Suggestion!] (All/Android): ")
+confirm = input(f"Hello {username}! Would You Like To Flash Everything, Or Just Android Files Like System, Vendor, Etc? [Type Answer As Spelt In Suggestion!] (all/android): ")
 if confirm.lower() == "all":
     print("Flashing Everything!")
-    print("Please Rename radio To `radio.img`, do the same with bootloader!")
     subprocess.run([
         "adb", "reboot", "bootloader"
     ], stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
