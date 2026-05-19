@@ -6,6 +6,11 @@ import subprocess
 import os
 import getpass
 
+if os.name == 'nt':
+    os.system('cls')
+else:
+    os.system('clear')
+
 print(r"""
 
 ██████╗ ██╗██╗  ██╗███████╗██╗     
